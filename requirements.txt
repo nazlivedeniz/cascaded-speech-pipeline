@@ -1,0 +1,12 @@
+accelerate>=1.9.0             # to reduce model loading time
+faster-whisper>=1.1.1         # for streaming demo
+gradio>=5.38.2                # for demo
+numpy>=1.22.0
+pydub>=0.25.1
+silero-vad @ git+https://github.com/snakers4/silero-vad.git@94811cbe1207ec24bc0f5370b895364b8934936f
+sounddevice>=0.5.2            # real time audio streaming
+soundfile>=0.13.1
+torch>=2.7.1
+torchaudio>=2.7.1
+transformers>=4.53.3          # HuggingFace transformers
+TTS>=0.22.0                   # coquiTTS

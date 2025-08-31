@@ -1,0 +1,20 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "cython",
+    "packaging",
+]
+
+[flake8]
+max-line-length = 100
+extend-ignore = "E203, W503"
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+
+[tool.isort]
+line_length = 100
+profile = "black"
+multi_line_output = 3
